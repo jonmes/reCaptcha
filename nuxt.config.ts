@@ -13,6 +13,7 @@ export default defineNuxtConfig({
     public: {
       recaptcha_id: process.env.RECAPTCHA_ID,
       secret_key: process.env.SECRET_KEY,
+      measurement_id: process.env.MEASUREMENT_ID,
     },
   },
 });
